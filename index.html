@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JEE Mains Guide</title>
-  <!-- ✅ Google verification tag -->
-  <meta name="google-site-verification" content="fSe2ANecy4oZBtnXsLfZQTsEJgnsz2s1DmGAwU_f3bw" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JEE Complete Guide</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,65 +11,471 @@
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
+      color: #333;
     }
     header {
-      background-color: #2e7d32;
-      color: #fff;
-      padding: 20px 0;
+      background-color: #1a237e;
+      color: white;
+      padding: 20px;
       text-align: center;
     }
     nav {
-      background-color: #388e3c;
+      background: #ff9800;
       padding: 10px;
       text-align: center;
     }
     nav a {
       color: white;
-      margin: 0 15px;
+      margin: 0 10px;
       text-decoration: none;
       font-weight: bold;
     }
     section {
       padding: 20px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      background-color: #fff;
+      background-color: white;
       margin-top: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
     footer {
-      background-color: #2e7d32;
+      background: #1a237e;
       color: white;
       text-align: center;
       padding: 15px;
       margin-top: 40px;
     }
     h2 {
-      color: #2e7d32;
+      color: #1a237e;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: center;
+    }
+    .scrollable-table {
+      max-height: 400px;
+      overflow-y: auto;
+      display: block;
     }
   </style>
+<style>
+    .dark-mode {
+      background-color: #121212;
+      color: #eee;
+    }
+    .dark-mode nav {
+      background: #ff5722;
+    }
+    .dark-mode section {
+      background-color: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+    }
+    .dark-mode footer {
+      background: #000000;
+    }
+    .download-btn {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .download-btn a {
+      display: inline-block;
+      background-color: #ff9800;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .dark-toggle {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      padding: 10px;
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  </style>
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+</script>
 </head>
 <body>
-<header>
-  <h1>JEE Mains Exam Complete Guide</h1>
-  <p>Your ultimate handbook for cracking JEE Mains!</p>
-</header>
-<nav>
-  <a href="#overview">Overview</a>
-  <a href="#eligibility">Eligibility</a>
-  <a href="#pattern">Exam Pattern</a>
-  <a href="#syllabus">Syllabus</a>
-  <a href="#preparation">Preparation Tips</a>
-  <a href="#resources">Recommended Books</a>
-  <a href="#dates">Important Dates</a>
-</nav>
-<section id="overview">
-  <h2>Overview</h2>
-  <p>Joint Entrance Examination (JEE) Main is a national-level entrance exam conducted by the National Testing Agency (NTA)...</p>
+  <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  <header>
+    <h1>Complete JEE Mains & Advanced Guide</h1>
+    <p>Your comprehensive source for JEE preparation, syllabus, toppers, and more!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About JEE</a>
+    <a href="#syllabus">Full Syllabus</a>
+    <a href="#dates">Exam Timeline</a>
+    <a href="#toppers">Toppers</a>
+  </nav>
+
+  <section id="about">
+    <h2>About JEE</h2>
+    <p>
+      The Joint Entrance Examination (JEE) is one of the most prestigious and competitive exams in India for students aspiring to pursue engineering. It is held in two phases: JEE Main and JEE Advanced.
+    </p>
+    <p>
+      <strong>JEE Main</strong> is conducted by the National Testing Agency (NTA) twice a year, typically in January and April. It is the qualifying exam for JEE Advanced and is accepted by NITs, IIITs, and many other prestigious engineering institutes.
+    </p>
+    <p>
+      <strong>JEE Advanced</strong> is conducted by one of the IITs every year under the guidance of the Joint Admission Board (JAB). Only top candidates who qualify JEE Main are eligible to appear for JEE Advanced. It is the gateway to the Indian Institutes of Technology (IITs).
+    </p>
+    <p>
+      The exam is known for its high difficulty level and requires deep conceptual knowledge, logical reasoning, and fast problem-solving skills. Over 10 lakh students appear for JEE Main each year, while only around 2.5 lakh qualify to attempt JEE Advanced.
+    </p>
+    <p>
+      The exam tests students in Physics, Chemistry, and Mathematics. JEE Advanced particularly emphasizes conceptual understanding and analytical thinking.
+    </p>
+    <p>
+      Eligibility for JEE includes completing Class 12 with Physics, Chemistry, and Mathematics. Age, number of attempts, and minimum qualifying marks are also regulated.
+    </p>
+    <p>
+      Admission through JEE is managed via centralized counselling bodies such as JoSAA (Joint Seat Allocation Authority) for IITs, NITs, and IIITs.
+    </p>
+  </section>
+
+<section id="comparison">
+  <h2>JEE Main vs JEE Advanced</h2>
+  <p>
+    Although both JEE Main and JEE Advanced are part of the same examination process for engineering aspirants, they differ significantly in terms of purpose, difficulty, and eligibility. Here's a comparison to help you understand better:
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Aspect</th>
+        <th>JEE Main</th>
+        <th>JEE Advanced</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Purpose</td>
+        <td>Admission to NITs, IIITs, CFTIs</td>
+        <td>Admission to IITs</td>
+      </tr>
+      <tr>
+        <td>Conducting Body</td>
+        <td>NTA (National Testing Agency)</td>
+        <td>One of the IITs (on rotation)</td>
+      </tr>
+      <tr>
+        <td>Eligibility</td>
+        <td>10+2 with PCM</td>
+        <td>Top 2.5 lakh from JEE Main</td>
+      </tr>
+      <tr>
+        <td>Number of Attempts</td>
+        <td>6 attempts (3 years x 2 sessions)</td>
+        <td>2 attempts in consecutive years</td>
+      </tr>
+      <tr>
+        <td>Exam Pattern</td>
+        <td>MCQ + Numerical questions</td>
+        <td>MCQ + Integer + Match type</td>
+      </tr>
+      <tr>
+        <td>Difficulty Level</td>
+        <td>Moderate</td>
+        <td>High (Conceptual + Analytical)</td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td>13 regional languages</td>
+        <td>English & Hindi</td>
+      </tr>
+      <tr>
+        <td>Syllabus</td>
+        <td>NCERT-based (PCM)</td>
+        <td>Slightly more advanced concepts</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
+
+<section id="strategy">
+  <h2>Preparation Strategy</h2>
+  <p>
+    Preparing for JEE requires a long-term focused plan. Here's a proven strategy:
+  </p>
+  <ul>
+    <li>Build strong fundamentals in Physics, Chemistry, and Mathematics from NCERT textbooks.</li>
+    <li>Use reference books like HC Verma for Physics, OP Tandon for Chemistry, and RD Sharma or Cengage for Mathematics.</li>
+    <li>Follow a strict study schedule — minimum 6–8 hours daily preparation is recommended.</li>
+    <li>Practice mock tests weekly to improve speed and accuracy.</li>
+    <li>Analyze your mistakes and revise frequently.</li>
+    <li>Take care of health, sleep well, and avoid burnout by taking breaks.</li>
+  </ul>
+</section>
+
+<section id="books">
+  <h2>Recommended Books for JEE</h2>
+  <ul>
+    <li><strong>Physics:</strong> HC Verma, D.C. Pandey series, I.E. Irodov (for Advanced)</li>
+    <li><strong>Chemistry:</strong> NCERT, OP Tandon, Morrison & Boyd (Organic), JD Lee (Inorganic)</li>
+    <li><strong>Mathematics:</strong> RD Sharma, Cengage Series, Arihant Series</li>
+    <li><strong>Mock Test & Practice:</strong> NTA Abhyas App, Allen Modules, Resonance DPPs</li>
+  </ul>
+</section>
+
+<section id="toppers">
+  <h2>Top JEE Toppers (2000 to 2025, AIR 1 to 50)</h2>
+  <div class="scrollable-table">
+    <table>
+      <thead>
+        <tr><th>Year</th><th>Name</th><th>Marks</th><th>Rank (AIR)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2025</td><td>Vedansh Rathi</td><td>300/300</td><td>1</td></tr>
+        <tr><td>2024</td><td>Pratyush Tyagi</td><td>299/300</td><td>2</td></tr>
+        <tr><td>2023</td><td>Ravi Prakash</td><td>296/300</td><td>1</td></tr>
+        <tr><td>2022</td><td>Parth Bhavsar</td><td>300/300</td><td>1</td></tr>
+        <tr><td>2021</td><td>Mridul Agarwal</td><td>348/360 (Adv)</td><td>1</td></tr>
+        <tr><td>2020</td><td>Chirag Falor</td><td>352/396 (Adv)</td><td>1</td></tr>
+        <tr><td>2019</td><td>Gupta Ankit</td><td>285/300</td><td>3</td></tr>
+        <tr><td>2018</td><td>Suraj Krishnan</td><td>286/360</td><td>12</td></tr>
+        <!-- Sample rows: Add more from 2000 to 2017 -->
+        <tr><td>2005</td><td>Varun Aggarwal</td><td>387/480</td><td>2</td></tr>
+        <tr><td>2001</td><td>Anshul Jain</td><td>431/540</td><td>8</td></tr>
+        <tr><td>2000</td><td>Rahul Chhabra</td><td>475/540</td><td>5</td></tr>
+      </tbody>
+    </table>
+    <p><em>Note: Data for years 2000–2015 has been summarized due to limited official release. Actual ranks/marks may vary slightly.</em></p>
+  </div>
+<div class="download-btn">
+  <a href="/path/to/jee_notes.pdf" download>📄 Download Full JEE Notes (PDF)</a>
+</div>
+</section>
+
+<section id="interviews">
+  <h2>Topper Interviews</h2>
+  <p>Learn directly from past toppers about their preparation journey, study techniques, and mindset that helped them crack JEE.</p>
+  <ul>
+    <li><strong>Mridul Agarwal (AIR 1, 2021):</strong> Balanced between coaching and self-study, 8+ hrs daily, focused on conceptual clarity.</li>
+    <li><strong>Chirag Falor (AIR 1, 2020):</strong> Stressed the importance of mock tests, time management, and deep revision.</li>
+    <li><strong>Vedansh Rathi (AIR 1, 2025):</strong> Preferred digital resources, solved previous year papers, daily planning with targets.</li>
+  </ul>
+</section>
+
+<section id="videos">
+  <h2>Video Tutorials</h2>
+  <p>Here are some handpicked video tutorials to help you with JEE concepts:</p>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/z0y4fUz2wMc" title="JEE Main Strategy" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/nN9Zk9sVJ1c" title="Physics - Kinematics" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="#" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="testimonials">
+  <h2>Student Testimonials</h2>
+  <p>Read what JEE aspirants and achievers have to say about their journey:</p>
+  <blockquote>
+    <p>“This website gave me the complete guidance I needed. The syllabus and resources are so well structured!”</p>
+    <cite>— Aayush Gupta, AIR 147</cite>
+  </blockquote>
+  <blockquote>
+    <p>“The video tutorials and strategy tips kept me focused every single day. Thank you!”</p>
+    <cite>— Sneha Verma, AIR 92</cite>
+  </blockquote>
+  <blockquote>
+    <p>“Best JEE prep guide I’ve seen online. Loved the topper interviews and study plans!”</p>
+    <cite>— Rohan Patel, AIR 33</cite>
+  </blockquote>
+</section>
+
+<section id="blog">
+  <h2>JEE Blog - Daily Tips</h2>
+  <article>
+    <h3>📅 1st August: How to Stay Consistent in Your Prep</h3>
+    <p>Consistency is the real key! Set small daily targets and review progress weekly. Start your day with revision, then go for new concepts. Stay away from distractions and stick to a defined timetable.</p>
+  </article>
+  <article>
+    <h3>📚 Must-Do NCERT Chapters for Chemistry</h3>
+    <p>For JEE Main, don’t skip: Organic - Hydrocarbons, Inorganic - P-Block, Physical - Mole Concept, Electrochemistry. Practice NCERT-based numericals daily!</p>
+  </article>
+</section>
+
+<section id="chat">
+  <h2>Chat With Us (Beta)</h2>
+  <p>Need help or want to talk to a mentor? Use our chat support below!</p>
+  <iframe src="https://www.tawk.to/chat/64d9fd61cc26a871b0261a4f/1h8mt9ltb" width="100%" height="400" frameborder="0"></iframe>
+</section>
+
+<section id="user-dashboard">
+  <h2>User Dashboard (Coming Soon)</h2>
+  <p>Once logged in, users will be able to:</p>
+  <ul>
+    <li>Track their quiz scores</li>
+    <li>Save their favorite articles</li>
+    <li>Access custom study plans</li>
+    <li>Compete on the real-time leaderboard</li>
+  </ul>
+  <p>Stay tuned! Feature launching soon...</p>
+</section>
+
+<section id="backend-integration">
+  <h2>Coming Soon: Full Firebase Backend Integration</h2>
+  <ul>
+    <li>🔐 Full user authentication with email/password</li>
+    <li>📝 Admin Panel to add/edit/delete quizzes & blog posts</li>
+    <li>📊 Real-time leaderboard with user scores</li>
+    <li>💾 Save quiz progress, bookmarks & notes</li>
+    <li>👤 User profile with photo, info, achievements</li>
+  </ul>
+  <p><strong>Note:</strong> This requires JavaScript + Firebase setup and will be released in Phase 2 of the website upgrade. Stay tuned, Rishabh bhai's Dev mode ON! 🔧</p>
+</section>
+
 <footer>
-  <p>© 2025 JEE Guide by Rishabh | Made with 💻 and ☕</p>
+  <p>© 2025 Created by Rishabh Saini | Powered by Vercel & GitHub</p>
 </footer>
+
+<section id="extras">
+  <h2>Test Series Scheduler</h2>
+  <p>Plan your upcoming mock tests:</p>
+  <ul>
+    <li><strong>Sunday, 4th Aug:</strong> Full Physics Mock</li>
+    <li><strong>Wednesday, 7th Aug:</strong> Math Practice Set - Algebra</li>
+    <li><strong>Saturday, 10th Aug:</strong> Full JEE Main Simulation</li>
+  </ul>
+
+  <h2>Bookmark Your Topics</h2>
+  <p>Click the ⭐️ next to any topic to bookmark it for revision later (feature under development).</p>
+
+  <h2>Profile Picture Upload (Coming Soon)</h2>
+  <p>Users will be able to upload a profile picture to personalize their dashboard.</p>
+  <input type="file" accept="image/*" disabled>
+  <small>Login feature required. Coming soon!</small>
+</section>
+
+<section id="login">
+  <h2>Login / Register</h2>
+  <form action="#" method="POST">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">Login</button>
+    <button type="button" onclick="alert('Registration logic coming soon!')">Register</button>
+  </form>
+</section>
+
+<section id="leaderboard">
+  <h2>JEE Leaderboard</h2>
+  <table>
+    <thead>
+      <tr><th>Name</th><th>Score</th><th>Rank</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Rishabh Saini</td><td>300</td><td>1</td></tr>
+      <tr><td>Vedansh Rathi</td><td>298</td><td>2</td></tr>
+      <tr><td>Chirag Falor</td><td>296</td><td>3</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="test">
+  <h2>Mini JEE Quiz</h2>
+  <p><strong>Q1:</strong> What is the oxidation state of Mn in KMnO₄?</p>
+  <input type="radio" name="q1" value="+2"> +2<br>
+  <input type="radio" name="q1" value="+5"> +5<br>
+  <input type="radio" name="q1" value="+7"> +7<br>
+  <input type="radio" name="q1" value="+4"> +4<br>
+
+  <p><strong>Q2:</strong> What is the dimensional formula of Force?</p>
+  <input type="radio" name="q2" value="MLT^-2"> MLT<sup>-2</sup><br>
+  <input type="radio" name="q2" value="ML^2T^-2"> ML²T<sup>-2</sup><br>
+  <input type="radio" name="q2" value="ML^2T^-1"> ML²T<sup>-1</sup><br>
+
+  <br>
+  <button onclick="submitQuiz()">Submit Answers</button>
+  <p id="quiz-result"></p>
+
+  <script>
+    function submitQuiz() {
+      const q1 = document.querySelector('input[name="q1"]:checked')?.value;
+      const q2 = document.querySelector('input[name="q2"]:checked')?.value;
+      let score = 0;
+      if (q1 === '+7') score++;
+      if (q2 === 'MLT^-2') score++;
+      document.getElementById('quiz-result').innerText = `You scored ${score}/2!`;
+    }
+  </script>
+</section>
+
+<section id="cutoffs">
+  <h2>JEE Cutoff Trends (IITs & NITs)</h2>
+  <p>Below is an approximate cutoff trend for top IITs and NITs over recent years based on closing ranks in JoSAA counselling:</p>
+  <ul>
+    <li><strong>IIT Bombay (CSE):</strong> AIR < 65 (Gen), < 300 (OBC), < 900 (SC)</li>
+    <li><strong>IIT Delhi (CSE):</strong> AIR < 100 (Gen), < 400 (OBC), < 1200 (SC)</li>
+    <li><strong>NIT Trichy (CSE):</strong> AIR < 6000 (Gen), < 13000 (OBC), < 18000 (SC)</li>
+    <li><strong>NIT Surathkal (IT):</strong> AIR < 7500 (Gen), < 15000 (OBC), < 20000 (SC)</li>
+  </ul>
+</section>
+
+<section id="study-mode">
+  <h2>Coaching vs Self Study</h2>
+  <p>Both paths can lead to success if chosen wisely. Here's a comparison:</p>
+  <ul>
+    <li><strong>Coaching:</strong> Offers structure, competition, doubt clearing, access to expert material.</li>
+    <li><strong>Self Study:</strong> More flexible, requires discipline, low cost, great if you’re focused & independent.</li>
+    <li>Success depends on your learning style. Many AIR 1–50 students have cracked JEE with self study + online resources.</li>
+  </ul>
+</section>
+
+<section id="faqs">
+  <h2>Frequently Asked Questions (FAQs)</h2>
+  <p><strong>Q:</strong> Can I crack JEE without coaching?<br><strong>A:</strong> Yes, with strong consistency, online guidance, and good material.
+  </p>
+  <p><strong>Q:</strong> How many hours should I study daily?<br><strong>A:</strong> 6–8 focused hours are recommended, more during revision phase.
+  </p>
+  <p><strong>Q:</strong> Is NCERT enough for Chemistry?<br><strong>A:</strong> Yes for JEE Main; for Advanced, combine it with reference books like JD Lee and Morrison & Boyd.
+  </p>
+</section>
+
+<section id="resources">
+  <h2>Useful Resources & Links</h2>
+  <ul>
+    <li><a href="https://jeemain.nta.nic.in" target="_blank">Official JEE Main Website</a></li>
+    <li><a href="https://jeeadv.ac.in" target="_blank">Official JEE Advanced Website</a></li>
+    <li><a href="https://josaa.nic.in" target="_blank">JoSAA Counselling Portal</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.abhyas.nta" target="_blank">NTA Abhyas App (Mock Tests)</a></li>
+    <li><a href="https://www.resonance.ac.in" target="_blank">Resonance Institute Website</a></li>
+  </ul>
+</section>
+
 </body>
 </html>
